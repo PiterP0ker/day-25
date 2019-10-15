@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('PlayfairDisplay-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font: 400 18px/1.88 Lato, sans-serif;
+	background-color: #fff;
+	color: #A9A9A9;
+}
+
+/* Layout */
+.ba-container{
+	padding: 108px 136px 120px 122px;
+	max-width: 1400px;
+	margin: 132px auto 0;
+	box-shadow: 0 0 50px rgba(0,0,0,0.2);
+	
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+
+.ba-post-title {
+	font: 400 42px/1 "Playfair Display", serif;
+	color: #171717;
+}
+
+.ba-fl::first-letter {
+	font-family: "Playfair Display", serif;
+	color: #171717;
+	font-size: 110px;
+	float: left;
+	line-height: 0.8;
+	margin: 0 23px 2px 0;
+}
+
+p:not(:last-child) {
+	margin-bottom: 37px;
+}
+
+.ba-quote {
+	font-size: 24px;
+	font-style: italic;
+	padding-left: 20px;
+	
+}
+
+.ba-quote::before {
+	content: "“";
+	color: #8A8A8A;
+	font-size: 60px;
+}
+
+.ba-quote::after {
+	content: "”";
+	color: #8A8A8A;
+	font-size: 60px;
+}
+
+.ba-btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #EEB378;
+	border: 1px solid #EEB378;
+	padding: 8px 74px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 23px;
+}
